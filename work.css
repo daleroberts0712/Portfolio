@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: black;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li{
+    font-size: 20px;
+    margin-inline: 10px;
+    margin-top: 5%;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline 3px solid;
+}
+
+.navbar a:active{
+    font-weight: bold;
+}
+
+.header h1{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.header p{
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.projects{
+    flex-wrap: wrap;
+}
+
+.projects .img{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 150px;
+}
+
+.landing-page .img{
+    background-image: url('./img/Product\ Landing\ Page.png');
+}
+
+.microsoft-clone .img{
+    background-image: url('./img/microsoft-homepage.png');
+}
+
+.online-store .img{
+    background-image: url('./img/online-store.png');
+}
+
+.cape-travel .img{
+    background-image: url('./img/cape-travel.png');
+}
+
+.movie-api .img{
+    background-image: url('./img/movie-streaming.png');
+}
+
+.task-manager .img{
+    background-image: url('./img/task-manager.png');
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
